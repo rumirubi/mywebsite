@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <title>Text Styling</title>
+    <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: #FFF7E1;
+        }
+
+        .header{
+            display: inline-block;
+            background-color: #529FD7;
+            width: 1440px;
+        }
+        h1{
+            background: none;
+            display: block;
+            float: left;
+            font-size: 80px;
+            border-right: solid #FFF7E1;
+            border-right-width: 5px;
+            color: #FFF7E1;
+            height: 150px;
+            width: 200px;
+            text-align: center;
+            line-height: 135px;
+        }
+        #menu1 {
+            background-color: #529FD7;
+            float: left;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 35px;
+            padding-right: 151px;
+            list-style:none;
+            font-size: 24px;
+            font-weight: normal;
+            height: 150px;
+        }
+        #menu1 li {
+            background: none;
+            float:left; 
+        }
+        #menu1 li a{
+            display: block;
+            block-size: auto;
+            height: 40px;
+            width: 150px;
+            border-radius: 50px;
+            margin-top: 55px;
+            margin-right: 40px;
+            text-decoration: none;
+            text-align: center;
+            color: #529FD7;
+            line-height: 40px;
+            background-color: #FFF7E1;
+        }
+
+        #menu2 {
+            float: left;
+            padding-left: 196px;
+            padding-right: 50px;
+            margin-top: 0;
+            margin-bottom: 0;
+            list-style:none;
+            font-size: 24px;
+            font-weight: normal;
+            background-color: #529FD7;
+            height: 150px;
+        }
+        #menu2 li {
+            float:left; 
+            background: none;
+        }
+        #menu2 li a:hover {
+            background-color: #529FD7;
+            text-decoration: underline;
+        }
+        #menu2 li a{
+            background-color: #529FD7;
+            display: block;
+            margin-top: 55px;
+            margin-left: 30px;
+            text-decoration: none;
+            text-align: center;
+            color: #FFF7E1;
+            line-height: 40px;
+        }
+        
+        .main{
+            margin-top: 70px;
+            clear: both;
+        }
+        .main .text{
+            float: left;
+            display: block;
+            background-color: #529FD7;
+            color: #FFF7E1;
+            font-size: 50px;
+            height: 498px;
+            width: 655px;
+            padding-top: 302px;
+            padding-left: 60px;
+            padding-bottom: 0;
+            padding-right: 0;
+            margin-bottom: 200px;
+        }
+        .main .page1{
+            float: left;
+            display: block;
+            border: solid #529FD7;
+            border-width: 5px;
+            height: 230px;
+            width: 570px;
+            padding-left: 75px;
+            padding-right: 75px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        .main .page1 h3{
+            text-align: right;
+            font-size: 50px;
+            color: #529FD7;
+        }
+        .main .page1 a{
+            float: left;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            line-height: 50px;
+            font-size: 30px;
+            background-color: #529FD7;
+            color: #FFF7E1;
+            border-radius: 50px;
+            height: 50px;
+            width: 200px;
+            margin-top: 40px;
+        }
+        .main .page1 a:hover{
+            text-decoration: underline;
+        }
+
+        .main .page2{
+            float: left;
+            display: block;
+            border: solid #529FD7;
+            border-width: 5px;
+            height: 230px;
+            width: 570px;
+            padding-left: 75px;
+            padding-right: 75px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            margin-bottom: 200px;
+        }
+        .main .page2 h3{
+            text-align: left;
+            font-size: 50px;
+            color: #529FD7;
+        }
+        .main .page2 a{
+            float: right;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            line-height: 50px;
+            font-size: 30px;
+            background: #529FD7;
+            color: #FFF7E1;
+            border-radius: 50px;
+            height: 50px;
+            width: 200px;
+            margin-top: 40px;
+        }
+        .main .page2 a:hover{
+            text-decoration: underline;
+        }
+
+        .img {
+            clear: both;
+            display: block;
+            background-image: url("https://pbs.twimg.com/media/Fywz8v3aQAARKjE?format=png&name=small");
+            background-size: cover;
+            background-position: center;
+            width: 1440px;
+            height: 250px;
+            margin-bottom: 100px;
+            padding-top: 527px;
+            text-align: center;
+        }
+
+        .img .about {
+            background: none;
+            color: #529FD7;
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .img p{
+            background: none;
+            color: #529FD7;
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 50px;
+        }
+
+        .point{
+            clear: both;
+            margin-bottom: 100px;
+
+        }
+        .point p{
+            color: #529FD7;
+            font-weight: bold;
+            font-size: 64px;
+            margin-bottom: 100px;
+            margin-left: 600px;
+        }
+        .point .s1{
+            float: left;
+            display: block;
+            background-color: #529FD7;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 45px;
+            height: 355px;
+            width: 300px;
+            margin-right: 100px;
+            margin-left: 95px;
+            text-align: center;
+        }
+        .point .s2{
+            float: left;
+            display: block;
+            background-color: #529FD7;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 45px;
+            height: 355px;
+            width: 300px;
+            margin-right: 100px;
+            text-align: center;
+        }
+        .point .s3{
+            float: left;
+            display: block;
+            background-color: #529FD7;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 45px;
+            height: 355px;
+            width: 300px;
+            margin-right: 95px;
+            text-align: center;
+        }
+        .point h5{
+            background: none;
+            color: #FFF7E1;
+            font-size: 100px;
+            font-weight: bold;
+            margin-bottom: 80px;
+        }
+        .point h6{
+            background: none;
+            font-size: 20px;
+            font-weight: normal;
+            color: #FFF7E1;
+        }
+
+        .footer{
+            clear: both;
+            float: left;
+            margin-top: 100px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: normal;
+            color: #FFF7E1;
+            background-color: #529FD7;
+            width: 1440px;
+            height: 150px;
+            display: block;
+        }
+        .footer p{
+            background: none;
+            display: inline-block;
+            line-height: 150px;
+            margin-left: 66px;
+        }
+    </style>
+
+    <body>
+        <div class="header">
+            <h1>W</h1>
+                <ul id="menu1">
+                    <li><a href="selfintro.html">자기소개서</a></li>
+                    <li><a href="company.html">이력서</a></li>
+                    <li><a href="">구직</a></li>
+                </ul>
+                <ul id="menu2">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+        </div>
+
+        <div class="main">
+            <div class="text">Write your life,<br>Save your memory,<br>Show yourself
+            </div>
+            <div class="page1">
+                <h3>자기소개서<br>새로 작성하기</h3>
+                <a href="">바로가기</a>
+            </div>
+            <div class="page2">
+                <h3>이력서<br>새로 작성하기</h3>
+                <a href="">바로가기</a>
+            </div>
+        </div>
+
+        <div class="img">
+            <div class="about">ABOUT US</div>  
+            <br>
+            <p>자기소개서를 작성하는데 어려움을 겪는 사람들을 위한 사이트
+                <br>온라인 첨삭 지도 및 간단한 구직, 다양한 종류의 자기소개서와 이력서 정리, 간단한 포토폴리오 정리</p>
+        </div>
+
+        <div class="point">
+            <p>POINTS</p>
+            <div class="s1">
+                <h5>1</h5>
+                <h6>무료로 첨삭을 해주며 온라인<br>으로 조언해주는 실시간 피드<br>백 시스템</h6>
+            </div>
+            <div class="s2">
+                <h5>2</h5>
+                <h6>다양한 분야의 이력과 포토폴<br>리오를 한 눈에 알기 쉽게 정리<br>해주고 간단한 문법과 문맥 수<br>정을 해주는 AI 시스템</h6>
+            </div>
+            <div class="s3">
+                <h5>3</h5>
+                <h6>다양한 구직사이트와 연관되어<br>있어 쉽고 다양하게 원하는 분<br>야로 이력서 제출이 가능</h6>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Twitter</p>
+            <p>Blog</p>
+        </div>
+    </body>
+</html>
